@@ -1,0 +1,72 @@
+/* general styles for tables */
+table {
+    margin: 5px auto 15px auto;
+    border: 1px outset #afafaf;
+    border-collapse: separate;
+    border-spacing: 3px;
+    font-size: 14px;
+    line-height: 20px;
+}
+th, td {
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border: 1px inset #afafaf;
+}
+th {
+    padding-left: 0;
+    text-align: center;
+    font-weight: bold;
+}
+td {
+    padding-left: 4px;
+}
+/*styles for second-table*/
+.second-table th, .second-table td, .third-table th {
+    vertical-align: middle;
+}
+.second-table tr td:first-child {
+    font-weight: bold;
+}
+/*styles for third table*/
+.third-table {
+    border-width: 2px;
+    border-spacing: 0;
+}
+.third-table th {
+    padding-left: 4px;
+    text-align: left;
+}
+/*width of columns for all tables*/
+.col130 {
+    width: 130px;
+}
+.col276 {
+    width: 276px
+}
+.col280 {
+    width: 280px;
+}
+.col300 {
+    width: 300px;
+}
+.col74 {
+    width: 74px;
+}
+.col118 {
+    width: 118px;
+}
+.col145 {
+    width: 145px;
+}
+.col240 {
+    width: 240px;
+}
+.col340 {
+    width: 340px;
+}
+.col176 {
+    width: 176px;
+}
+.col75 {
+    width: 75px;
+}
